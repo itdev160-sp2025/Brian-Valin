@@ -1,0 +1,43 @@
+body {
+    background-color: #000050;
+}
+
+h1{
+    color: orange;
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+}
+
+h2{
+    color: rgb(75.3%, 75.3%, 75.3%);
+    font-family: "Permanent Marker", serif;
+    font-weight: 400;
+}
+
+p{
+    color: rgb(255, 215, 0);
+    font-family: Optima, sans-serif;
+    font-size: 20px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.robot{
+    font-family: "Play", serif;
+}
+
+.shark{
+    font-family: "grechen Fuemen", serif;
+}
+
+.sharkBump{
+    font-size: 25px;
+}
+
+.ketramose{
+    font-family: Papyrus;
+}
