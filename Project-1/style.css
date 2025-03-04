@@ -1,0 +1,34 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.centerJustify{
+    text-align: center;
+}
+
+body{
+    background-color: #000080;
+    font-family: "Port Lligat Sans", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-overflow: ellipsis;
+    max-width: 1200px;
+}
+
+h1, h2{
+    color: #FF0000;
+}
+
+p, ul, ol{
+    color: #C0C0C0;
+}
+
+#TrimLevels{
+    color: #C0C0C0;
+}
+
+#link{
+    color: orange;
+}
