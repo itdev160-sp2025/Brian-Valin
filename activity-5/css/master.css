@@ -1,0 +1,19 @@
+body {
+    background-color: #000000;
+    font-family: "Port Lligat Sans", sans-serif;
+    color: #C0C0C0;
+    font-weight: 600;
+    font-style: normal;
+    text-overflow: ellipsis;
+    margin: auto 30px;
+    max-width: 1200px;
+}
+
+#credits {
+    font-style: italic;
+    font-size: 0.75em;
+}
+
+#headerImage {
+    width: 100%;
+}
