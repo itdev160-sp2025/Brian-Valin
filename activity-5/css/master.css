@@ -6,7 +6,6 @@ body {
     font-style: normal;
     text-overflow: ellipsis;
     margin: auto 30px;
-    max-width: 1200px;
 }
 
 #credits {
