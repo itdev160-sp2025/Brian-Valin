@@ -1,0 +1,29 @@
+body 
+{
+    background-color: #000000;
+    font-family: "Port Lligat Sans", sans-serif;
+    color: #C0C0C0;
+    font-weight: 600;
+    font-style: normal;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    margin: auto 30px;
+}
+
+.messages
+{
+    margin-bottom: 20px;
+}
+
+.out-message
+{
+    padding: 5px;
+    background-color: lightblue;
+    color: black;
+}
+
+.in-message {
+    padding: 5px;
+    background-color: lightgreen;
+        color: black;
+}
