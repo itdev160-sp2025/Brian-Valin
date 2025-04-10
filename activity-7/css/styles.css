@@ -1,0 +1,30 @@
+body {
+    background-color: #000000;
+    font-family: "Port Lligat Sans", sans-serif;
+    color: #C0C0C0;
+    font-weight: 600;
+    font-style: normal;
+    text-overflow: ellipsis;
+    max-width: 300px;
+    margin: auto 30px;
+}
+
+ul {
+    margin:0;
+}
+
+li {
+    padding: 5px;
+}
+
+#todo-list-container {
+    margin-top: 20px;
+}
+
+#completed-list {
+    list-style-type: none;
+}
+
+#completed-list li {
+    text-decoration: line-through;
+}
