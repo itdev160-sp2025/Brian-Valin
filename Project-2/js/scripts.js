@@ -23,7 +23,7 @@ function geometricCalc(pop, sucInPop, sam, sucInSam) {
     var n = sam;
     var x = sucInSam;
     var h = 0;
-
+    
     h = ((factorialCalc(k)/(factorialCalc(x)*factorialCalc(k-x))) * (factorialCalc(N-k)/(factorialCalc(n-x)*factorialCalc((N-k)-(n-x)))) / (factorialCalc(N)/(factorialCalc(n)*factorialCalc(N-n))))
     
     return h;
@@ -62,6 +62,19 @@ function greaterThan(pop, sucInPop, sam, sucInSam) {
 }
 
 
+function placeGraph() {
+    var img = document.createElement('img');
+    img.src = 'images/chart.png';
+    img.alt='chart';
+    img.width='500';
+    img.height='500';
+    document.body.appendChild(img);
+    
+    example = document.getElementById('example');
+    example.remove();
+}
+
+
 function startCalc(){
     var pop = document.getElementById('population').value;
     var sucInPop = document.getElementById('successes_in_pop').value;
@@ -90,6 +103,8 @@ function startCalc(){
 
     var greaterEqual = parseFloat(exact) + parseFloat(greater);
     greaterEqualEl.textContent = greaterEqual.toFixed(5);
+
+    placeGraph();
 }
 
 
